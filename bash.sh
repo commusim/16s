@@ -1,17 +1,9 @@
-# python tradition.py --i 0 --preprocess True
-# python tradition.py --i 1 --preprocess True
-# python tradition.py --i 2 --preprocess True
-# python tradition.py --i 3 --preprocess True
-# python tradition.py --i 4 --preprocess True
-# python tradition.py --i 5 --preprocess True
-# python tradition.py --i 6 --preprocess True
-# python tradition.py --i 7 --preprocess True
+# python tradition.py --mode regression --method LL
+# python tradition.py --mode regression --method RF
+# python tradition.py --mode regression --method DT
+# python tradition.py --mode regression --method XG
 
-python tradition.py --i 0 --preprocess False
-python tradition.py --i 1 --preprocess False
-python tradition.py --i 2 --preprocess False
-python tradition.py --i 3 --preprocess False
-python tradition.py --i 4 --preprocess False
-python tradition.py --i 5 --preprocess False
-python tradition.py --i 6 --preprocess False
-python tradition.py --i 7 --preprocess False
+python tradition.py --mode classification --method RF
+python tradition.py --mode classification --method DT
+python tradition.py --mode classification --method XG
+# python dl.py --mode classification --method NM
